@@ -1,0 +1,298 @@
+.bg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #603f26;
+    width: 1440px;
+    height: 355px;
+}
+.logo-icon {
+    position: absolute;
+    height: 17.04%;
+    width: 7.33%;
+    top: 10.7%;
+    right: 79.9%;
+    bottom: 72.25%;
+    left: 12.78%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.alamat-desa-bawomataluo {
+    margin: 0;
+}
+.alamat {
+    position: absolute;
+    top: 152px;
+    left: 188px;
+    display: inline-block;
+    width: 433px;
+}
+.textbox1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 31px;
+    border: 1px solid #ffeac5;
+    box-sizing: border-box;
+    width: 439px;
+    height: 213px;
+}
+.text {
+    position: absolute;
+    top: 50px;
+    left: 21px;
+    display: inline-block;
+    width: 396px;
+    opacity: 0.84;
+}
+.textbox {
+    position: absolute;
+    top: 55px;
+    left: 0px;
+    width: 439px;
+    height: 213px;
+}
+.contact-us2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.contact-us1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 119px;
+    height: 28px;
+    font-size: 24px;
+}
+.contact-us {
+    position: absolute;
+    top: 32px;
+    left: 817px;
+    width: 439px;
+    height: 268px;
+    font-size: 16px;
+}
+.footer {
+    position: absolute;
+    top: 1145px;
+    left: 0px;
+    width: 1440px;
+    height: 355px;
+    font-size: 20px;
+    color: #ffeac5;
+}
+.propertydetails1 {
+    position: absolute;
+    top: 228px;
+    left: 184px;
+    font-size: 36px;
+}
+.bg1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #603f26;
+    width: 1440px;
+    height: 188px;
+}
+.logo-icon1 {
+    position: absolute;
+    height: 32.18%;
+    width: 7.33%;
+    top: 34.57%;
+    right: 79.9%;
+    bottom: 33.24%;
+    left: 12.78%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    cursor: pointer;
+}
+.btnhome {
+    position: absolute;
+    top: 85px;
+    left: 363px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.btnblogarticles {
+    position: absolute;
+    top: 85px;
+    left: 819px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.btntestimonials {
+    position: absolute;
+    top: 85px;
+    left: 1092px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.btnfaq {
+    position: absolute;
+    top: 85px;
+    left: 1005px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.btnproperties {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    cursor: pointer;
+}
+.vector-icon {
+    position: absolute;
+    top: 9.5px;
+    left: 117px;
+    width: 16.5px;
+    height: 9px;
+    object-fit: contain;
+}
+.btnproperty-details {
+    align-self: stretch;
+    position: relative;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.btn {
+    position: absolute;
+    top: 36px;
+    left: 0px;
+    background-color: #ffeac5;
+    width: 142px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 13px;
+    font-size: 20px;
+    color: #603f26;
+}
+.dropdownpropeties {
+    position: absolute;
+    top: 85px;
+    left: 637px;
+    width: 142px;
+    height: 95px;
+}
+.btnproperties1 {
+    position: relative;
+    cursor: pointer;
+}
+.vector-icon1 {
+    width: 16.5px;
+    position: relative;
+    height: 9px;
+    object-fit: contain;
+}
+.dropdown {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 6px;
+}
+.btn1 {
+    align-self: stretch;
+    background-color: #ffeac5;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 13px;
+    font-size: 20px;
+    color: #603f26;
+}
+.dropdownaboutus {
+    position: absolute;
+    top: 85px;
+    left: 456px;
+    width: 142px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.navbar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 188px;
+    font-size: 24px;
+    color: #ffeac5;
+}
+.image-icon {
+    position: absolute;
+    top: 455px;
+    left: 184px;
+    border-radius: 45px;
+    width: 527px;
+    height: 504px;
+    object-fit: cover;
+}
+.omo-hada-adalah {
+    position: absolute;
+    top: 511px;
+    left: 728px;
+    text-align: justify;
+    display: inline-block;
+    width: 528px;
+    height: 435px;
+}
+.text1 {
+    position: absolute;
+    top: 455px;
+    left: 728px;
+}
+.gradient {
+    position: absolute;
+    top: 455px;
+    left: 189px;
+    border-radius: 45px;
+    background: linear-gradient(0deg, #603f26, rgba(255, 255, 255, 0));
+    width: 522px;
+    height: 504px;
+}
+.dropdownaboutus1 {
+	position: absolute;
+	top: 4px;
+	left: 101px;
+	border: 0;
+	width: 21px;
+	height: 21px;
+	overflow: hidden;
+	z-index: 2;
+	color: #ffeac5;
+	background-color: #603f26;
+  }
+  .dropdownproperties {
+	position: absolute;
+	top: 4px;
+	left: 115px;
+	border: 0;
+	width: 21px;
+	height: 21px;
+	overflow: hidden;
+	z-index: 2;
+	color: #ffeac5;
+	background-color: #603f26;
+  }
+.propertydetails {
+    width: 100%;
+    position: relative;
+    background-color: #ffeac5;
+    height: 1500px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 32px;
+    color: #603f26;
+    font-family: Roboto;
+}
+

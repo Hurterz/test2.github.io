@@ -1,0 +1,280 @@
+.bg {
+    position: absolute;
+    top: 356.33px;
+    left: 0px;
+    background-color: #603f26;
+    width: 1440px;
+    height: 355px;
+}
+.logo-icon {
+    position: absolute;
+    height: 5.67%;
+    width: 7.33%;
+    top: 0%;
+    right: 79.9%;
+    bottom: 94.33%;
+    left: 12.78%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.alamat-desa-bawomataluo {
+    margin: 0;
+}
+.alamat {
+    position: absolute;
+    top: 508.33px;
+    left: 188px;
+    display: inline-block;
+    width: 433px;
+}
+.textbox1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 31px;
+    border: 1px solid #ffeac5;
+    box-sizing: border-box;
+    width: 439px;
+    height: 213px;
+}
+.text {
+    position: absolute;
+    top: 50px;
+    left: 21px;
+    display: inline-block;
+    width: 396px;
+    opacity: 0.84;
+}
+.textbox {
+    position: absolute;
+    top: 55px;
+    left: 0px;
+    width: 439px;
+    height: 213px;
+}
+.contact-us2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.contact-us1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 119px;
+    height: 28px;
+    font-size: 24px;
+}
+.contact-us {
+    position: absolute;
+    top: 388.33px;
+    left: 817px;
+    width: 439px;
+    height: 268px;
+    font-size: 16px;
+}
+.footer {
+    position: absolute;
+    top: 289px;
+    left: 0px;
+    width: 1440px;
+    height: 711.3px;
+    font-size: 20px;
+}
+.kontak1 {
+    position: absolute;
+    top: 245px;
+    left: 187px;
+    color: #603f26;
+}
+.bg1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #603f26;
+    width: 1440px;
+    height: 188px;
+}
+.logo-icon1 {
+    position: absolute;
+    height: 41.33%;
+    width: 7.33%;
+    top: 23.05%;
+    right: 79.9%;
+    bottom: 35.62%;
+    left: 12.78%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    cursor: pointer;
+}
+.btnhome {
+    position: absolute;
+    top: 85px;
+    left: 363px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.btnblogarticles {
+    position: absolute;
+    top: 85px;
+    left: 819px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.btntestimonials {
+    position: absolute;
+    top: 85px;
+    left: 1092px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.btnfaq {
+    position: absolute;
+    top: 85px;
+    left: 1005px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.btnproperties {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    cursor: pointer;
+}
+.vector-icon {
+    position: absolute;
+    top: 9.5px;
+    left: 117px;
+    width: 16.5px;
+    height: 9px;
+    object-fit: contain;
+}
+.btnproperty-details {
+    align-self: stretch;
+    position: relative;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.btn {
+    position: absolute;
+    top: 36px;
+    left: 0px;
+    background-color: #ffeac5;
+    width: 142px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 13px;
+    font-size: 20px;
+    color: #603f26;
+}
+.dropdownaboutus1 {
+	position: absolute;
+	top: 4px;
+	left: 101px;
+	border: 0;
+	width: 21px;
+	height: 21px;
+	overflow: hidden;
+	z-index: 2;
+	color: #ffeac5;
+	background-color: #603f26;
+  }
+  .dropdownproperties {
+	position: absolute;
+	top: 4px;
+	left: 115px;
+	border: 0;
+	width: 21px;
+	height: 21px;
+	overflow: hidden;
+	z-index: 2;
+	color: #ffeac5;
+	background-color: #603f26;
+  }
+.dropdownpropeties {
+    position: absolute;
+    top: 85px;
+    left: 637px;
+    width: 142px;
+    height: 95px;
+}
+.btnaboutUs {
+    position: relative;
+    cursor: pointer;
+}
+.vector-icon1 {
+    width: 16.5px;
+    position: relative;
+    height: 9px;
+    object-fit: contain;
+}
+.dropdown {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 6px;
+}
+.btn1 {
+    align-self: stretch;
+    background-color: #ffeac5;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 13px;
+    font-size: 20px;
+    color: #603f26;
+}
+.dropdownaboutus {
+    position: absolute;
+    top: 85px;
+    left: 456px;
+    width: 142px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.navbar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 188px;
+    font-size: 24px;
+}
+.alamat-desa-bawomataluo1 {
+    margin-bottom: 0px;
+}
+.alamat-desa-bawomataluo-pula {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: 48px;
+}
+.informasi-kontak-lokal-container {
+    position: absolute;
+    top: 341px;
+    left: 208px;
+    color: #603f26;
+    text-align: justify;
+}
+.kontak {
+    width: 100%;
+    position: relative;
+    background-color: #ffeac5;
+    height: 1000px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 36px;
+    color: #ffeac5;
+    font-family: Roboto;
+}
+

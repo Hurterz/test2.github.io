@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+  	
+  	<link rel="stylesheet"  href="./propertydetails.css" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" />
+  	
+  	
+  	
+</head>
+<body>
+  	
+  	<div class="propertydetails">
+    		<div class="footer">
+      			<div class="bg">
+      			</div>
+      			<img class="logo-icon" alt="" src="logo.svg">
+      			
+      			<div class="alamat">
+        				<p class="alamat-desa-bawomataluo">Alamat: Desa Bawomataluo, Pulau Nias, Sumatra Utara</p>
+        				<p class="alamat-desa-bawomataluo">Telepon: +62 123 4567 890</p>
+        				<p class="alamat-desa-bawomataluo">Email: info@rumahniaspromotion.com</p>
+      			</div>
+      			<div class="contact-us">
+        				<div class="textbox">
+          					<div class="textbox1">
+          					</div>
+          					<div class="text">Apakah Anda tertarik untuk mempelajari lebih lanjut tentang rumah panggung Nias? Isi formulir di bawah ini, dan kami akan menghubungi Anda dengan informasi lebih lanjut dan jadwal tur.</div>
+        				</div>
+        				<div class="contact-us1">
+          					<b class="contact-us2">Contact Us</b>
+        				</div>
+      			</div>
+    		</div>
+    		<b class="propertydetails1">PropertyDetails</b>
+    		<div class="navbar">
+      			<div class="bg1">
+      			</div>
+      			<img class="logo-icon1" alt="" src="logo.svg" id="logo">
+      			
+      			<div class="btnhome" id="btnhomeText">Home</div>
+      			<div class="btnblogarticles" id="btnBlogArticlesText">Blog/Articles</div>
+      			<div class="btntestimonials" id="btnTestimonialsText">Testimonials</div>
+      			<div class="btnfaq" id="btnFAQText">FAQ</div>
+      			<div class="dropdownpropeties">
+        				<div class="btnproperties" id="btnPropertiesText">Properties</div>
+        				<select class="dropdownproperties" id="dropdownproperties" onchange="redirectToPropertyPage()">
+							<option value=""></option>
+							<option value="photogallery.html">photo gallery</option>
+							<option value="propertydetails.html">property details</option>
+						</select>
+      			</div>
+      			<div class="dropdownaboutus">
+        				<div class="dropdown">
+          					<div class="btnaboutUs" id="btnaboutUsText">About Us</div>
+          					<select class="dropdownaboutus1" id="dropdownaboutus1" onchange="redirectToPage()">
+								<option value=""></option>
+								<option value="location.html">Location</option>
+								<option value="contact.html">Contact Us</option>
+							</select>
+        				</div>
+        				
+      			</div>
+    		</div>
+    		<img class="image-icon" alt="" src="image5.png">
+    		
+    		<div class="omo-hada-adalah">Omo Hada adalah rumah tradisional masyarakat Nias yang biasanya dihuni oleh keluarga besar. Rumah ini memiliki desain panggung yang tinggi dengan ruang yang luas di bawahnya, sering digunakan sebagai tempat berkumpul atau menyimpan perahu dan barang-barang penting. Atapnya yang tinggi dan runcing serta dinding yang dihiasi ukiran, memberikan kesan agung dan megah.</div>
+    		<b class="text1">Omo Hada</b>
+    		<div class="gradient">
+    		</div>
+  	</div>
+  	
+  	
+  	
+  	
+  	<script>
+		 function redirectToPropertyPage() {
+        var dropdown = document.getElementById("dropdownproperties");
+        var selectedPage = dropdown.value;
+        if (selectedPage) {
+            window.location.href = selectedPage;
+        }
+    }
+	function redirectToPage() {
+        var dropdown = document.getElementById("dropdownaboutus1");
+        var selectedPage = dropdown.value;
+        if (selectedPage) {
+            window.location.href = selectedPage;
+        }
+    }
+    		var logo = document.getElementById("logo");
+    		if(logo) {
+      			logo.addEventListener("click", function (e) {
+					window.location.href = "index.html"
+      			});
+    		}
+    		
+    		var btnhomeText = document.getElementById("btnhomeText");
+    		if(btnhomeText) {
+      			btnhomeText.addEventListener("click", function (e) {
+					window.location.href = "home.html"
+      			});
+    		}
+    		
+    		var btnBlogArticlesText = document.getElementById("btnBlogArticlesText");
+    		if(btnBlogArticlesText) {
+      			btnBlogArticlesText.addEventListener("click", function (e) {
+					window.location.href = "blog.html"
+      			});
+    		}
+    		
+    		var btnTestimonialsText = document.getElementById("btnTestimonialsText");
+    		if(btnTestimonialsText) {
+      			btnTestimonialsText.addEventListener("click", function (e) {
+					window.location.href = "Testimoni.html"
+      			});
+    		}
+    		
+    		var btnFAQText = document.getElementById("btnFAQText");
+    		if(btnFAQText) {
+      			btnFAQText.addEventListener("click", function (e) {
+					window.location.href = "FAQ.html"
+      			});
+    		}
+    		
+    		var btnPropertiesText = document.getElementById("btnPropertiesText");
+    		if(btnPropertiesText) {
+      			btnPropertiesText.addEventListener("click", function (e) {
+					window.location.href = "properties.html"
+      			});
+    		}
+    		var btnaboutUsText = document.getElementById("btnaboutUsText");
+    		if(btnaboutUsText) {
+				btnaboutUsText.addEventListener("click", function (e) {
+					window.location.href = "aboutUs.html"
+      			});
+    		}
+    		var btnPropertyDetailsText = document.getElementById("btnPropertyDetailsText");
+    		if(btnPropertyDetailsText) {
+      			btnPropertyDetailsText.addEventListener("click", function (e) {
+					window.location.href = "propertydetails.html"
+      			});
+    		}
+    		
+    		var btnPhotoGalleryText = document.getElementById("btnPhotoGalleryText");
+    		if(btnPhotoGalleryText) {
+      			btnPhotoGalleryText.addEventListener("click", function (e) {
+					window.location.href = "photogallery.html"
+      			});
+    		}
+    		
+    		var btnlocationText = document.getElementById("btnlocationText");
+    		if(btnlocationText) {
+      			btnlocationText.addEventListener("click", function (e) {
+					window.location.href = "location.html"
+      			});
+    		}
+    		
+    		var contactusGalleryText = document.getElementById("contactusGalleryText");
+    		if(contactusGalleryText) {
+      			contactusGalleryText.addEventListener("click", function (e) {
+					window.location.href = "contact.html"
+      			});
+    		}</script></body>
+</html>
